@@ -1,0 +1,4 @@
+.custom-offcanvas {
+  max-width: 500px; /* Set the desired maximum width */
+  width: 100%; /* Make the Offcanvas fill the available width */
+}

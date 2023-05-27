@@ -30,17 +30,22 @@ const Navigation = () => {
         </div>
       </div>
 
-      <Offcanvas show={showMenu} onHide={toggleMenu} placement="end">
+      <Offcanvas
+        show={showMenu}
+        onHide={toggleMenu}
+        placement="end"
+        className="w-50"
+      >
         <Offcanvas.Header closeButton>
           <Offcanvas.Title>Portfolio</Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
           <Nav className="flex-column">
-            <Nav.Link>About Me</Nav.Link>
-            <Nav.Link>Education</Nav.Link>
-            <Nav.Link>Skills</Nav.Link>
-            <Nav.Link>Projects</Nav.Link>
-            <Nav.Link>Contact</Nav.Link>
+            <Nav.Link className="text-black">About Me</Nav.Link>
+            <Nav.Link className="text-black">Education</Nav.Link>
+            <Nav.Link className="text-black">Skills</Nav.Link>
+            <Nav.Link className="text-black">Projects</Nav.Link>
+            <Nav.Link className="text-black">Contact</Nav.Link>
           </Nav>
         </Offcanvas.Body>
       </Offcanvas>
