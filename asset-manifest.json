@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/IsuruX98.github.io/static/css/main.c2cab247.css",
+    "main.js": "/IsuruX98.github.io/static/js/main.2721108d.js",
+    "static/js/787.1ed0c42c.chunk.js": "/IsuruX98.github.io/static/js/787.1ed0c42c.chunk.js",
+    "static/media/picofme.png": "/IsuruX98.github.io/static/media/picofme.c81776aa872c7119315b.png",
+    "index.html": "/IsuruX98.github.io/index.html",
+    "main.c2cab247.css.map": "/IsuruX98.github.io/static/css/main.c2cab247.css.map",
+    "main.2721108d.js.map": "/IsuruX98.github.io/static/js/main.2721108d.js.map",
+    "787.1ed0c42c.chunk.js.map": "/IsuruX98.github.io/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2cab247.css",
+    "static/js/main.2721108d.js"
+  ]
+}
