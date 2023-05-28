@@ -52,7 +52,7 @@ const Projects = () => {
           <span>
             <Link
               to="https://github.com/IsuruX98"
-              className="ms-1 text-dark badge bg-warning text-decoration-none fs-6"
+              className="ms-lg-1 mt-lg-0 mt-3 text-dark badge bg-warning text-decoration-none fs-6"
             >
               Click here to vist
               <i className="bi bi-github ms-2"></i>
@@ -72,7 +72,9 @@ const Projects = () => {
                     <div className="p-5 col-lg-7">
                       <h2 className="fw-bold fs-3">{card.title}</h2>
                       <p className="mt-5">{card.description}</p>
-                      <p className="badge bg-dark">{card.lang}</p>
+                      <div className="d-lg-block d-none">
+                        <p className="badge bg-dark ">{card.lang}</p>
+                      </div>
                     </div>
                     <div className="col-lg-5 d-flex">
                       <img src={card.img} alt="" className="img-fluid" />
