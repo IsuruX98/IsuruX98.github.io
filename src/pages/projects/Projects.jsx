@@ -50,7 +50,10 @@ const Projects = () => {
         <p className="mb-4">
           All the projects are in my Github{" "}
           <span>
-            <Link to="https://github.com/IsuruX98" className="text-dark">
+            <Link
+              to="https://github.com/IsuruX98"
+              className="ms-1 text-dark badge bg-warning text-decoration-none fs-6"
+            >
               Click here to vist
               <i className="bi bi-github ms-2"></i>
             </Link>
