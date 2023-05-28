@@ -1,16 +1,11 @@
-import Navbar from "./components/navbar/Navbar";
-import Hero from "./components/hero/Hero";
-import Aboutme from "./components/aboutme/Aboutme";
-import Footer from "./components/footer/Footer";
+import { BrowserRouter } from "react-router-dom";
+import Layout from "./components/layout/Layout";
 
 function App() {
   return (
-    <div>
-      <Navbar />
-      <Hero />
-      <Aboutme />
-      <Footer />
-    </div>
+    <BrowserRouter>
+      <Layout />
+    </BrowserRouter>
   );
 }
 

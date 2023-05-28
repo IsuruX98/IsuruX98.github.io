@@ -2,6 +2,7 @@ import React from "react";
 import profile from "../../asserts/images/picofme.png";
 import cv from "../../asserts/pdf/cv.pdf";
 import { saveAs } from "file-saver";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   const handleDownload = () => {
@@ -30,9 +31,12 @@ const Hero = () => {
                   >
                     Resume
                   </button>
-                  <a className="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder">
+                  <Link
+                    to="/projects"
+                    className="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder"
+                  >
                     Projects
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

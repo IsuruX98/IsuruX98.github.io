@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Aboutme = () => {
   return (
@@ -24,15 +25,21 @@ const Aboutme = () => {
                   a dynamic team
                 </p>
                 <div className="d-flex justify-content-center fs-2 gap-4">
-                  <a className="text-success" href="#!">
+                  <Link
+                    to="https://wa.me/+94771886641"
+                    className="text-success"
+                  >
                     <i className="bi bi-whatsapp"></i>
-                  </a>
-                  <a className="text-primary" href="#!">
+                  </Link>
+                  <Link
+                    to="https://www.linkedin.com/in/isuru-madusanka-1b9210218/"
+                    className="text-primary"
+                  >
                     <i className="bi bi-linkedin"></i>
-                  </a>
-                  <a className="text-dark" href="#!">
+                  </Link>
+                  <Link to="https://github.com/IsuruX98" className="text-dark">
                     <i className="bi bi-github"></i>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>

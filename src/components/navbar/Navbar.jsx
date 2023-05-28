@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Navbar, Nav, Offcanvas } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 const Navigation = () => {
   const [showMenu, setShowMenu] = useState(false);
@@ -21,11 +22,27 @@ const Navigation = () => {
         </div>
         <div className="d-none d-lg-block px-5">
           <Nav className="pt-2">
-            <Nav.Link className="text-black">About Me</Nav.Link>
-            <Nav.Link className="text-black">Education</Nav.Link>
-            <Nav.Link className="text-black">Skills</Nav.Link>
-            <Nav.Link className="text-black">Projects</Nav.Link>
-            <Nav.Link className="text-black">Contact</Nav.Link>
+            <Nav.Link className="text-black">
+              <Link to="/" className="text-black text-decoration-none">
+                Home
+              </Link>
+            </Nav.Link>
+            <Nav.Link className="text-black">
+              <Link to="/education" className="text-black text-decoration-none">
+                Education
+              </Link>
+            </Nav.Link>
+
+            <Nav.Link className="text-black">
+              <Link to="/projects" className="text-black text-decoration-none">
+                Projects
+              </Link>
+            </Nav.Link>
+            <Nav.Link className="text-black">
+              <Link to="/contact" className="text-black text-decoration-none">
+                Contact
+              </Link>
+            </Nav.Link>
           </Nav>
         </div>
       </div>
@@ -41,11 +58,26 @@ const Navigation = () => {
         </Offcanvas.Header>
         <Offcanvas.Body>
           <Nav className="flex-column">
-            <Nav.Link className="text-black">About Me</Nav.Link>
-            <Nav.Link className="text-black">Education</Nav.Link>
-            <Nav.Link className="text-black">Skills</Nav.Link>
-            <Nav.Link className="text-black">Projects</Nav.Link>
-            <Nav.Link className="text-black">Contact</Nav.Link>
+            <Nav.Link className="text-black">
+              <Link to="/" className="text-black text-decoration-none">
+                Home
+              </Link>
+            </Nav.Link>
+            <Nav.Link className="text-black">
+              <Link to="/education" className="text-black text-decoration-none">
+                Education
+              </Link>
+            </Nav.Link>
+            <Nav.Link className="text-black">
+              <Link to="/projects" className="text-black text-decoration-none">
+                Projects
+              </Link>
+            </Nav.Link>
+            <Nav.Link className="text-black">
+              <Link to="/contact" className="text-black text-decoration-none">
+                Contact
+              </Link>
+            </Nav.Link>
           </Nav>
         </Offcanvas.Body>
       </Offcanvas>
