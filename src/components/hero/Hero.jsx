@@ -29,13 +29,13 @@ const Hero = () => {
                     className="btn btn-warning btn-lg px-5 py-3 me-sm-3 fs-6 fw-bolder"
                     onClick={handleDownload}
                   >
-                    Resume
+                    Download Resume
                   </button>
                   <Link
                     to="/projects"
                     className="btn btn-outline-dark btn-lg px-5 py-3 fs-6 fw-bolder"
                   >
-                    Projects
+                    My Projects
                   </Link>
                 </div>
               </div>
