@@ -19,12 +19,12 @@ const Education = () => {
     {
       date: "2017 - 2018",
       title: "Pearson Diploma in Information Technology",
-      description: "ESOFT, Galle",
+      description: "Completed in ESOFT, Galle",
     },
     {
       date: "2017 - 2018",
       title: "Pearson Diploma in English",
-      description: "ESOFT, Galle",
+      description: "Completed in ESOFT, Galle",
     },
     {
       date: "2017",
@@ -35,7 +35,7 @@ const Education = () => {
     {
       date: "2014",
       title: "G.C.E (O/L) Examination in 2014 (Index No – 41275888)",
-      description: "7A’s, 1B, 1C",
+      description: "Passed with 7A’s, 1B, 1C",
     },
   ];
 

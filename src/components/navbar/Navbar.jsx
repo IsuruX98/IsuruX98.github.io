@@ -33,11 +33,15 @@ const Navigation = () => {
                 Projects
               </Link>
             </Nav.Link>
-            <Nav.Link className="text-black">
-              <Link to="/contact" className="text-black text-decoration-none">
+            <div className="ps-3 text-black pt-2">
+              <Link
+                to="https://wa.me/+94771886641"
+                className="text-success text-decoration-none"
+              >
                 Contact
+                <i className="ms-2 bi bi-whatsapp"></i>
               </Link>
-            </Nav.Link>
+            </div>
           </Nav>
         </div>
       </div>
@@ -64,11 +68,15 @@ const Navigation = () => {
                 Projects
               </Link>
             </Nav.Link>
-            <Nav.Link className="text-black">
-              <Link to="/contact" className="text-black text-decoration-none">
+            <div className="ps-3 text-black pt-2">
+              <Link
+                to="https://wa.me/+94771886641"
+                className="text-success text-decoration-none"
+              >
                 Contact
+                <i className="ms-2 bi bi-whatsapp"></i>
               </Link>
-            </Nav.Link>
+            </div>
           </Nav>
         </Offcanvas.Body>
       </Offcanvas>
