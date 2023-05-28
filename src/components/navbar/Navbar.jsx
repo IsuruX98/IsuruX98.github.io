@@ -27,11 +27,6 @@ const Navigation = () => {
                 Home
               </Link>
             </Nav.Link>
-            <Nav.Link className="text-black">
-              <Link to="/education" className="text-black text-decoration-none">
-                Education
-              </Link>
-            </Nav.Link>
 
             <Nav.Link className="text-black">
               <Link to="/projects" className="text-black text-decoration-none">
@@ -63,11 +58,7 @@ const Navigation = () => {
                 Home
               </Link>
             </Nav.Link>
-            <Nav.Link className="text-black">
-              <Link to="/education" className="text-black text-decoration-none">
-                Education
-              </Link>
-            </Nav.Link>
+
             <Nav.Link className="text-black">
               <Link to="/projects" className="text-black text-decoration-none">
                 Projects

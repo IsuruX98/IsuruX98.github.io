@@ -22,11 +22,11 @@ import {
 const Skills = () => {
   return (
     <>
-      <section className="py-5">
+      <section className="pb-5">
         <div className="container px-5">
           <div className="row gx-5 justify-content-center">
             <div className="col-xxl-8">
-              <div className="text-center my-5">
+              <div className="text-center mb-5">
                 <h2 className="fs-2 fw-semibold">
                   <span className="text-dark d-inline">Skills</span>
                 </h2>
