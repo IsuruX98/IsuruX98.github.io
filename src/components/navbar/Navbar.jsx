@@ -9,6 +9,10 @@ const Navigation = () => {
     setShowMenu(!showMenu);
   };
 
+  const handleContactClick = () => {
+    window.location.href = "mailto:isurusanka98@gmail.com";
+  };
+
   return (
     <>
       <div className="container-fluid d-lg-flex justify-content-lg-between bg-light p-2 sticky-top">
@@ -22,24 +26,25 @@ const Navigation = () => {
         </div>
         <div className="d-none d-lg-block px-5">
           <Nav className="pt-2">
-            <Nav.Link className="text-black">
+            <Nav.Link className="text-black fw-semibold">
               <Link to="/" className="text-black text-decoration-none">
                 Home
               </Link>
             </Nav.Link>
 
-            <Nav.Link className="text-black">
+            <Nav.Link className="text-black fw-semibold">
               <Link to="/projects" className="text-black text-decoration-none">
                 Projects
               </Link>
             </Nav.Link>
             <div className="ps-3 text-black pt-2">
               <Link
-                to="https://wa.me/+94771886641"
-                className="text-success text-decoration-none"
+                to="#"
+                onClick={handleContactClick}
+                className="text-dark fw-semibold text-decoration-none"
               >
                 Contact
-                <i className="ms-2 bi bi-whatsapp"></i>
+                <i className="ms-2 bi bi-envelope-at"></i>
               </Link>
             </div>
           </Nav>
@@ -53,28 +58,29 @@ const Navigation = () => {
         className="w-50"
       >
         <Offcanvas.Header closeButton>
-          <Offcanvas.Title>Portfolio</Offcanvas.Title>
+          <Offcanvas.Title className="fw-bold">Portfolio</Offcanvas.Title>
         </Offcanvas.Header>
         <Offcanvas.Body>
           <Nav className="flex-column">
-            <Nav.Link className="text-black">
+            <Nav.Link className="text-black fw-semibold">
               <Link to="/" className="text-black text-decoration-none">
                 Home
               </Link>
             </Nav.Link>
 
-            <Nav.Link className="text-black">
+            <Nav.Link className="text-black fw-semibold">
               <Link to="/projects" className="text-black text-decoration-none">
                 Projects
               </Link>
             </Nav.Link>
             <div className="ps-3 text-black pt-2">
               <Link
-                to="https://wa.me/+94771886641"
-                className="text-success text-decoration-none"
+                to="#"
+                onClick={handleContactClick}
+                className="text-black fw-semibold text-decoration-none"
               >
                 Contact
-                <i className="ms-2 bi bi-whatsapp"></i>
+                <i className="ms-2 bi bi-envelope-at"></i>
               </Link>
             </div>
           </Nav>

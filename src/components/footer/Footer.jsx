@@ -1,6 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Footer = () => {
+  const handleContactClick = () => {
+    window.location.href = "mailto:isurusanka98@gmail.com";
+  };
+
   return (
     <>
       <footer className="bg-light py-4 mt-auto">
@@ -12,17 +17,17 @@ const Footer = () => {
               </div>
             </div>
             <div className="col-auto">
-              <a className="small" href="#!">
-                Privacy
-              </a>
+              <Link className="small" to="/">
+                Home
+              </Link>
               <span className="mx-1">&middot;</span>
-              <a className="small" href="#!">
-                Terms
-              </a>
+              <Link className="small" to="/projects">
+                Projects
+              </Link>
               <span className="mx-1">&middot;</span>
-              <a className="small" href="#!">
+              <Link className="small" to="#" onClick={handleContactClick}>
                 Contact
-              </a>
+              </Link>
             </div>
           </div>
         </div>
