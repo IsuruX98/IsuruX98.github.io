@@ -1,12 +1,12 @@
 import React from "react";
 import profile from "../../asserts/images/picofme.png";
-import cv from "../../asserts/pdf/cv.pdf";
+import cv from "../../asserts/pdf/isurumadusanka.pdf";
 import { saveAs } from "file-saver";
 import { Link } from "react-router-dom";
 
 const Hero = () => {
   const handleDownload = () => {
-    saveAs(cv, "cv.pdf");
+    saveAs(cv, "isurumadusanka.pdf");
   };
 
   return (
