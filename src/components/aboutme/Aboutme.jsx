@@ -16,13 +16,14 @@ const Aboutme = () => {
                   Intern - Software Enginer
                 </p>
                 <p className="text-muted">
-                  I'm a BSc (Hons) software engineering student at the Sri Lanka
-                  Institute of Information Technology. I'm passionate about
-                  software development and seeking an internship as a software
-                  engineer. I have coding skills in Java, Kotlin, Javascript and
-                  python, I'm familiar with software development methodologies.
-                  I'm eager to learn and contribute to meaningful projects with
-                  a dynamic team
+                  As a BSc (Hons) Software Engineering student at the Sri Lanka
+                  Institute of Information Technology, I possess coding skills
+                  in Java, Kotlin, and Javascript, along with familiarity in
+                  Springboot, MERN stack, and CSS frameworks like Bootstrap5 and
+                  Tailwind. I am eager to secure an internship as a software
+                  engineer to contribute to meaningful projects and learn from a
+                  dynamic team, utilizing my knowledge and passion for software
+                  development.
                 </p>
                 <div className="d-flex justify-content-center fs-2 gap-4">
                   <Link
